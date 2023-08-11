@@ -1,38 +1,159 @@
-.App {
-  text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+    display: inline;
+    margin-left: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar {
+    overflow: hidden;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    transition: 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.NavbarLogo {
+    width: 5rem;
+    height: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+a.NavbarLink, a.ButtonLink {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.WelcomeBlock {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: -2;
+}
+
+.WelcomeBlockImg {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.ContentGradientTop {
+    position: absolute;
+    background: linear-gradient(180deg, green 5%, rgba(0, 0, 0, 0.4) 40%);
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+}
+
+.ContentGradientBottom {
+    position: fixed;
+    background: linear-gradient(0deg, green 5%, rgba(0, 0, 0, 0) 40%);
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+}
+
+.WelcomeBlockBox {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 99;
+}
+
+.NonWelcomeBlockBox {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 99;
+}
+
+.Content {
+    position: absolute;
+    top: 100vh;
+}
+
+.Outlet {
+    transition: ease-in 3s;
+}
+
+.PH_Background {
+    background-color: green;
+}
+
+.ButtonLinkIcon {
+    background-color: white;
+    color: black;
+    width: 25%;
+    border: 1rem solid white;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.ButtonLinkText {
+    color: black;
+    text-decoration: none;
+}
+
+.ButtonLinkDesc {
+    font-size: medium;
+    margin-top: -1.5rem;
+}
+
+.row {
+    width: 100%;
+}
+
+.AboutContent {
+    font-size: medium;
+    line-height: 2.5rem;
+}
+
+.RStockCard {
+    background-color: white;
+    color: black;
+    width: 30%;
+    border: 0.5rem solid white;
+    cursor: auto;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+}
+
+.RStockCardImg {
+    height: fit-content;
+    width: fit-content;
+}
+
+.PartnerCard, .ContactCard {
+    background-color: white;
+    color: black;
+    width: 25%;
+    border: 1rem solid white;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.ContactCardImg {
+    width: 1000%;
+    height: 100%;
 }

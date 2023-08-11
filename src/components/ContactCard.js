@@ -1,4 +1,5 @@
-const ASelge_ProfPic = 'https://aselge.weebly.com/uploads/1/2/7/4/127417251/edited/1687849831157.jpg';
+const ASelge_ProfPic =
+  "https://aselge.weebly.com/uploads/1/2/7/4/127417251/edited/1687849831157.jpg";
 
 function ContactCard(props) {
   return (
@@ -6,7 +7,11 @@ function ContactCard(props) {
       <a href={props.address} className="ButtonLinkText">
         <div className="row">
           <div className="col-1">
-            <img className="ContactCardImg" src={ASelge_ProfPic} alt="Andreas Selge" />
+            <img
+              className="ContactCardImg"
+              src={ASelge_ProfPic}
+              alt="Andreas Selge"
+            />
           </div>
           <div className="col-3" />
           <div className="col">

@@ -38,7 +38,8 @@ const FAQ = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Miks peab ühistranspordis sõites sõiduõiguse validaatoris registreerima?
+                Miks peab ühistranspordis sõites sõiduõiguse validaatoris
+                registreerima?
               </button>
             </h2>
             <div
@@ -47,7 +48,9 @@ const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body AboutContent">
-              Sõiduõigusega reisijate sõiduinfo on vajalik ühistranspordiliinide ja -graafikute paremaks planeerimiseks. Samuti on siis reisjal võimalus kasutada tasuta WIFIt.
+                Sõiduõigusega reisijate sõiduinfo on vajalik
+                ühistranspordiliinide ja -graafikute paremaks planeerimiseks.
+                Samuti on siis reisjal võimalus kasutada tasuta WIFIt.
               </div>
             </div>
           </div>
@@ -61,7 +64,8 @@ const FAQ = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Millised piirangud kehtivad ühissõidukisse kaasa võetavate esemete kohta?
+                Millised piirangud kehtivad ühissõidukisse kaasa võetavate
+                esemete kohta?
               </button>
             </h2>
             <div
@@ -70,7 +74,12 @@ const FAQ = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body AboutContent">
-              Ühistranspordiseaduse  §72 lg 3 sätestab, et ühissõiduki salongis pole lubatud vedada käsipagasit, mis võib ohustada teiste ühissõidukis sõitvate isikute tervist või vara ning määrida või muul viisil kahjustada ühissõidukit. Keelatud pagas on eelkõige radioaktiivsed, lõhke-, mürk-, sööbivad, tuleohtlikud, lehkavad ja määrivad ained.
+                Ühistranspordiseaduse §72 lg 3 sätestab, et ühissõiduki salongis
+                pole lubatud vedada käsipagasit, mis võib ohustada teiste
+                ühissõidukis sõitvate isikute tervist või vara ning määrida või
+                muul viisil kahjustada ühissõidukit. Keelatud pagas on eelkõige
+                radioaktiivsed, lõhke-, mürk-, sööbivad, tuleohtlikud, lehkavad
+                ja määrivad ained.
               </div>
             </div>
           </div>

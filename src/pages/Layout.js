@@ -3,13 +3,13 @@ import Navbar from "../components/Navbar";
 import GradientBackground from "../components/GradientBackground";
 
 const Layout = () => {
-    return (
-        <div>
-            <Navbar />
-            <GradientBackground />
-            <Outlet />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Navbar />
+      <GradientBackground />
+      <Outlet />
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;

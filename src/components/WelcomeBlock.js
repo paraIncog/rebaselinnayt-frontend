@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import bus_front from './pictures/MAN_NG_EN92_front_far.png'
+import bus_front from "./pictures/MAN_NG_EN92_front_far.png";
 
-const RebaselinnaLt_Name = 'Rebaselinna Linnatransport'
-const CatchPhrase = 'Kiirem ja targem sihtkohta jõudmiseks Rebaselinnas.'
-const ReadMore = 'Loe lähemalt'
+const RebaselinnaLt_Name = "Rebaselinna Linnatransport";
+const CatchPhrase = "Kiirem ja targem sihtkohta jõudmiseks Rebaselinnas.";
+const ReadMore = "Loe lähemalt";
 
 function WelcomeBlock() {
   return (
@@ -15,9 +15,7 @@ function WelcomeBlock() {
       {/* Content */}
       <div className="WelcomeBlockBox">
         <div className="WelcomeBlockContent">{RebaselinnaLt_Name}</div>
-        <div className="WelcomeBlockContent">
-          {CatchPhrase}
-        </div>
+        <div className="WelcomeBlockContent">{CatchPhrase}</div>
         <button className="btn btn-primary" type="button">
           <Link className="ButtonLink" to="/about">
             {ReadMore}

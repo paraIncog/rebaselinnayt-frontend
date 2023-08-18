@@ -3,6 +3,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Repository goal
+
+This repository is for practicing front-end development with reactjs JavaScript framework.
+
 ## Available Scripts
 
 ### `npm install`
